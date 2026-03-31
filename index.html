@@ -1,47 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Resume</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    /* Reset everything */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    /* Force full screen */
-    html, body {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      background: #ffffff;
-    }
-
-    /* Fullscreen container */
-    .viewer {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       height: 100vh;
+      margin: 0;
+      font-family: Arial;
     }
-
-    /* PDF iframe */
-    .viewer iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
+    a {
+      padding: 15px 25px;
+      background: black;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
     }
   </style>
 </head>
-
 <body>
-  <div class="viewer">
-    <iframe src="resume.pdf"></iframe>
-  </div>
+  <a href="resume.pdf" target="_blank">Open Resume</a>
 </body>
 </html>
