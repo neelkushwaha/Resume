@@ -1,0 +1,9 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title><em>Resume</em></title>
+</head>
+<body style="margin:0">
+  <iframe src="resume.pdf" width="100%" height="100%"></iframe>
+</body>
+</html>
